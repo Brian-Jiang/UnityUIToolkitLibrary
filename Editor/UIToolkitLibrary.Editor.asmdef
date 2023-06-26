@@ -1,8 +1,8 @@
 {
-    "name": "PragmaTimeline.Editor",
-    "rootNamespace": "PragmaFramework.Timeline",
+    "name": "UIToolkitLibrary.Editor",
+    "rootNamespace": "UIToolkitLibrary",
     "references": [
-        "GUID:daf93e7bf06f3154fbe800d462414d0a"
+        "GUID:a4a4b2bcb77ac1c4f91eb6ccace000f4"
     ],
     "includePlatforms": [
         "Editor"
