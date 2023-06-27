@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.xiaojiang.uitoolkitlibrary/Runtime/Unity/SlideToggle/SlideToggle.uss?fileID=7433441132597879392&amp;guid=851a7b987d1b4063b60a4cc5949a1161&amp;type=3#SlideToggle" />
+    <UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle label="Slide Toggle" />
+    <ui:IntegerField label="Integer Field" value="42" />
+    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" />
+</ui:UXML>
