@@ -1,6 +1,6 @@
 .slide-toggle__input {
     background-color: var(--unity-colors-slider_groove-background);
-    max-width: 25px;
+    max-width: 30px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -34,9 +34,10 @@
     border-right-color: var(--unity-colors-slider_thumb-border);
     border-top-color: var(--unity-colors-slider_thumb-border);
     border-bottom-color: var(--unity-colors-slider_thumb-border);
-    width: 66%;
-    height: 100%;
-    translate: -1px 0;
+    width: 60%;
+    height: 113%;
+    translate: -1px -5%;
+    position: absolute;
 }
 
 .slide-toggle__input--checked {
@@ -44,7 +45,7 @@
 }
 
 .slide-toggle__input--checked > .slide-toggle__input-knob {
-    translate: 8px 0;
+    translate: 12px -5%;
 }
 
 .slide-toggle:focus .slide-toggle__input-knob {
