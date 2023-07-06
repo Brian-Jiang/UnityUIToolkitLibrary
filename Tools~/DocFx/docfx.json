@@ -3,12 +3,19 @@
     {
       "src": [
         {
+          "src": "D:/Unity/Editors/2022.3.1f1/Editor/Data/Managed",
+          "files": [
+            "UnityEngine.dll"
+          ]
+        },
+        {
           "src": "../..",
           "files": [
             "Runtime/**/*.cs",
             "Editor/**/*.cs"
-          ],
+          ]
         }
+        
       ],
       "dest": "api",
       "filter": "filterConfig.yml",
@@ -17,44 +24,33 @@
     }
   ],
   "build": {
+    "globalMetadata": {
+      "_appTitle": "Unity UIToolkit Library",
+      "_appFooter": "Unity UIToolkit Library",
+      "_enableSearch": true
+    },
     "content": [
       {
         "files": [
+          "index.md"
+        ]
+      },
+      {
+        "files": [
           "index.md",
-          "manual/intro.md",
           "toc.yml"
         ]
       },
       {
         "src": "api",
         "files": [
-            "*.yml"
-        ],
-        "dest": "api"
+          "*.yml"
+        ]
       },
       {
-        "src": "manual",
+        "src": "../..",
         "files": [
-          "*.yml"
-        ],
-        "dest": "manual"
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "images/**"
-        ]
-      }
-    ],
-    "overwrite": [
-      {
-        "files": [
-          "apidoc/**.md"
-        ],
-        "exclude": [
-          "obj/**",
-          "_site/**"
+          "**/*.md"
         ]
       }
     ],
@@ -67,14 +63,60 @@
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": [
-      "statictoc"
-    ],
+    "template": ["default"],
     "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
-    "cleanupCacheHistory": false,
+    "cleanupCacheHistory": true,
+    "disableGitFeatures": false
+  },
+  "pdf": {
+    "content": [
+      {
+        "files": [
+          "index.md",
+          "toc.yml"
+        ]
+      },
+      {
+        "src": "manual",
+        "files": [
+          "*.yml",
+          "*.md"
+        ]
+      },
+      {
+        "src": "api",
+        "files": [
+          "*.yml"
+        ]
+      },
+      {
+        "src": "../..",
+        "files": [
+          "**/*.md"
+        ]
+      }
+    ],
+    "xref": [
+      "https://normanderwan.github.io/UnityXrefMaps/xrefmap.yml"
+    ],
+    "xrefService": [
+      "https://xref.docs.microsoft.com/query?uid={uid}"
+    ],
+    "wkhtmltopdf": {
+      "additionalArguments": "--enable-local-file-access"
+    },
+    "noStdin" : true,
+    "dest": "_site_pdf",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": true,
     "disableGitFeatures": false
   }
 }

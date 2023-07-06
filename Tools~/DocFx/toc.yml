@@ -1,5 +1,4 @@
-- name: Manual
-  href: manual/
-  topicHref: manual/intro.md
+- name: Quick Start
+  href: index.md
 - name: API Documentation
   href: api/

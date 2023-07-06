@@ -1,6 +1,6 @@
 apiRules:
   - include:
-      uidRegex: ^PragmaFramework.Timeline\.?[^.]*
+      uidRegex: ^UIToolkitLibrary\.*
       type: Namespace
   - exclude:
       uidRegex: .*
