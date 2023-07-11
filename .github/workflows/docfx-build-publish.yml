@@ -6,9 +6,9 @@ name: DocFX Build and Publish
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,23 +29,38 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: 3.1.101
-          
+
       - name: Setup DocFX
         uses: crazy-max/ghaction-chocolatey@v1
         with:
           args: install docfx --ignore-checksums
-        
+
+      - name: Setup wkhtmltopdf
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: install wkhtmltopdf --ignore-checksums
+
+      - name: Copy readme
+        run: cp .\README.md .\Tools~\DocFx\index.md
+        shell: powershell
+
       - name: DocFX Build
         working-directory: Tools~/DocFx
         run: docfx docfx.json
         continue-on-error: false
-    
+
       - name: Upload site artifact
         uses: actions/upload-artifact@v2.2.4
         with:
           name: _site
           path: Tools~/DocFx/_site
-        
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          name: _site_pdf
+          path: Tools~/DocFx/_site_pdf/DocFx.pdf
+  
   deploy:
     if: github.event_name == 'push'
     needs: build
@@ -58,7 +73,7 @@ jobs:
         uses: actions/download-artifact@v1
         with:
           name: _site
-        
+
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -66,4 +81,3 @@ jobs:
           publish_branch: gh-pages
           publish_dir: _site
           force_orphan: true
-
