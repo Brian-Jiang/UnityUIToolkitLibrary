@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: PragmaFramework.Timeline.Runtime.ControlBindInfo
+  commentId: T:PragmaFramework.Timeline.Runtime.ControlBindInfo
+  id: ControlBindInfo
+  parent: PragmaFramework.Timeline.Runtime
+  children:
+  - PragmaFramework.Timeline.Runtime.ControlBindInfo.hash
+  - PragmaFramework.Timeline.Runtime.ControlBindInfo.key
+  - PragmaFramework.Timeline.Runtime.ControlBindInfo.playableAsset
+  - PragmaFramework.Timeline.Runtime.ControlBindInfo.trackAsset
+  langs:
+  - csharp
+  - vb
+  name: ControlBindInfo
+  nameWithType: ControlBindInfo
+  fullName: PragmaFramework.Timeline.Runtime.ControlBindInfo
+  type: Struct
+  source:
+    id: ControlBindInfo
+    path: ''
+    startLine: 51
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  syntax:
+    content: public struct ControlBindInfo
+    content.vb: Public Structure ControlBindInfo
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: PragmaFramework.Timeline.Runtime.ControlBindInfo.key
+  commentId: F:PragmaFramework.Timeline.Runtime.ControlBindInfo.key
+  id: key
+  parent: PragmaFramework.Timeline.Runtime.ControlBindInfo
+  langs:
+  - csharp
+  - vb
+  name: key
+  nameWithType: ControlBindInfo.key
+  fullName: PragmaFramework.Timeline.Runtime.ControlBindInfo.key
+  type: Field
+  source:
+    id: key
+    path: ''
+    startLine: 53
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  syntax:
+    content: public string key
+    return:
+      type: System.String
+    content.vb: Public key As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PragmaFramework.Timeline.Runtime.ControlBindInfo.hash
+  commentId: F:PragmaFramework.Timeline.Runtime.ControlBindInfo.hash
+  id: hash
+  parent: PragmaFramework.Timeline.Runtime.ControlBindInfo
+  langs:
+  - csharp
+  - vb
+  name: hash
+  nameWithType: ControlBindInfo.hash
+  fullName: PragmaFramework.Timeline.Runtime.ControlBindInfo.hash
+  type: Field
+  source:
+    id: hash
+    path: ''
+    startLine: 54
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  syntax:
+    content: public int hash
+    return:
+      type: System.Int32
+    content.vb: Public hash As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PragmaFramework.Timeline.Runtime.ControlBindInfo.trackAsset
+  commentId: F:PragmaFramework.Timeline.Runtime.ControlBindInfo.trackAsset
+  id: trackAsset
+  parent: PragmaFramework.Timeline.Runtime.ControlBindInfo
+  langs:
+  - csharp
+  - vb
+  name: trackAsset
+  nameWithType: ControlBindInfo.trackAsset
+  fullName: PragmaFramework.Timeline.Runtime.ControlBindInfo.trackAsset
+  type: Field
+  source:
+    id: trackAsset
+    path: ''
+    startLine: 55
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  syntax:
+    content: public TrackAsset trackAsset
+    return:
+      type: TrackAsset
+    content.vb: Public trackAsset As TrackAsset
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PragmaFramework.Timeline.Runtime.ControlBindInfo.playableAsset
+  commentId: F:PragmaFramework.Timeline.Runtime.ControlBindInfo.playableAsset
+  id: playableAsset
+  parent: PragmaFramework.Timeline.Runtime.ControlBindInfo
+  langs:
+  - csharp
+  - vb
+  name: playableAsset
+  nameWithType: ControlBindInfo.playableAsset
+  fullName: PragmaFramework.Timeline.Runtime.ControlBindInfo.playableAsset
+  type: Field
+  source:
+    id: playableAsset
+    path: ''
+    startLine: 56
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  syntax:
+    content: public ControlPlayableAsset playableAsset
+    return:
+      type: ControlPlayableAsset
+    content.vb: Public playableAsset As ControlPlayableAsset
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: PragmaFramework.Timeline.Runtime
+  commentId: N:PragmaFramework.Timeline.Runtime
+  name: PragmaFramework.Timeline.Runtime
+  nameWithType: PragmaFramework.Timeline.Runtime
+  fullName: PragmaFramework.Timeline.Runtime
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TrackAsset
+  isExternal: true
+  name: TrackAsset
+  nameWithType: TrackAsset
+  fullName: TrackAsset
+- uid: ControlPlayableAsset
+  isExternal: true
+  name: ControlPlayableAsset
+  nameWithType: ControlPlayableAsset
+  fullName: ControlPlayableAsset

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: PragmaFramework.Timeline.Editor
+  commentId: N:PragmaFramework.Timeline.Editor
+  id: PragmaFramework.Timeline.Editor
+  children:
+  - PragmaFramework.Timeline.Editor.TimelinePlayerEditor
+  langs:
+  - csharp
+  - vb
+  name: PragmaFramework.Timeline.Editor
+  nameWithType: PragmaFramework.Timeline.Editor
+  fullName: PragmaFramework.Timeline.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: PragmaFramework.Timeline.Editor.TimelinePlayerEditor
+  commentId: T:PragmaFramework.Timeline.Editor.TimelinePlayerEditor
+  name: TimelinePlayerEditor
+  nameWithType: TimelinePlayerEditor
+  fullName: PragmaFramework.Timeline.Editor.TimelinePlayerEditor

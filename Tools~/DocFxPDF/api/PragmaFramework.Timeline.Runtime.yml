@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: PragmaFramework.Timeline.Runtime
+  commentId: N:PragmaFramework.Timeline.Runtime
+  id: PragmaFramework.Timeline.Runtime
+  children:
+  - PragmaFramework.Timeline.Runtime.ControlBindInfo
+  - PragmaFramework.Timeline.Runtime.SubPlayerBindInfo
+  - PragmaFramework.Timeline.Runtime.TimelinePlayer
+  - PragmaFramework.Timeline.Runtime.TrackBindInfo
+  langs:
+  - csharp
+  - vb
+  name: PragmaFramework.Timeline.Runtime
+  nameWithType: PragmaFramework.Timeline.Runtime
+  fullName: PragmaFramework.Timeline.Runtime
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: PragmaFramework.Timeline.Runtime.ControlBindInfo
+  commentId: T:PragmaFramework.Timeline.Runtime.ControlBindInfo
+  name: ControlBindInfo
+  nameWithType: ControlBindInfo
+  fullName: PragmaFramework.Timeline.Runtime.ControlBindInfo
+- uid: PragmaFramework.Timeline.Runtime.TrackBindInfo
+  commentId: T:PragmaFramework.Timeline.Runtime.TrackBindInfo
+  name: TrackBindInfo
+  nameWithType: TrackBindInfo
+  fullName: PragmaFramework.Timeline.Runtime.TrackBindInfo
+- uid: PragmaFramework.Timeline.Runtime.SubPlayerBindInfo
+  commentId: T:PragmaFramework.Timeline.Runtime.SubPlayerBindInfo
+  name: SubPlayerBindInfo
+  nameWithType: SubPlayerBindInfo
+  fullName: PragmaFramework.Timeline.Runtime.SubPlayerBindInfo
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  commentId: T:PragmaFramework.Timeline.Runtime.TimelinePlayer
+  parent: PragmaFramework.Timeline.Runtime
+  name: TimelinePlayer
+  nameWithType: TimelinePlayer
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer
+- uid: PragmaFramework.Timeline.Runtime
+  commentId: N:PragmaFramework.Timeline.Runtime
+  name: PragmaFramework.Timeline.Runtime
+  nameWithType: PragmaFramework.Timeline.Runtime
+  fullName: PragmaFramework.Timeline.Runtime

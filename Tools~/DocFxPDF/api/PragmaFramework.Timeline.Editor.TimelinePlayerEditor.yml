@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: PragmaFramework.Timeline.Editor.TimelinePlayerEditor
+  commentId: T:PragmaFramework.Timeline.Editor.TimelinePlayerEditor
+  id: TimelinePlayerEditor
+  parent: PragmaFramework.Timeline.Editor
+  children:
+  - PragmaFramework.Timeline.Editor.TimelinePlayerEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: TimelinePlayerEditor
+  nameWithType: TimelinePlayerEditor
+  fullName: PragmaFramework.Timeline.Editor.TimelinePlayerEditor
+  type: Class
+  source:
+    id: TimelinePlayerEditor
+    path: ''
+    startLine: 32
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Editor
+  syntax:
+    content: 'public class TimelinePlayerEditor : UnityEditor.Editor'
+    content.vb: >-
+      Public Class TimelinePlayerEditor
+          Inherits UnityEditor.Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: PragmaFramework.Timeline.Editor.TimelinePlayerEditor.OnInspectorGUI
+  commentId: M:PragmaFramework.Timeline.Editor.TimelinePlayerEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: PragmaFramework.Timeline.Editor.TimelinePlayerEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: TimelinePlayerEditor.OnInspectorGUI()
+  fullName: PragmaFramework.Timeline.Editor.TimelinePlayerEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 37
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Editor
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: PragmaFramework.Timeline.Editor.TimelinePlayerEditor.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: PragmaFramework.Timeline.Editor
+  commentId: N:PragmaFramework.Timeline.Editor
+  name: PragmaFramework.Timeline.Editor
+  nameWithType: PragmaFramework.Timeline.Editor
+  fullName: PragmaFramework.Timeline.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: PragmaFramework.Timeline.Editor.TimelinePlayerEditor.OnInspectorGUI*
+  commentId: Overload:PragmaFramework.Timeline.Editor.TimelinePlayerEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: TimelinePlayerEditor.OnInspectorGUI
+  fullName: PragmaFramework.Timeline.Editor.TimelinePlayerEditor.OnInspectorGUI

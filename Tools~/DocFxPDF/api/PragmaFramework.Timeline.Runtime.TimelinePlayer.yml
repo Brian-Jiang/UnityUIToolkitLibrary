@@ -1,0 +1,762 @@
+### YamlMime:ManagedReference
+items:
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  commentId: T:PragmaFramework.Timeline.Runtime.TimelinePlayer
+  id: TimelinePlayer
+  parent: PragmaFramework.Timeline.Runtime
+  children:
+  - PragmaFramework.Timeline.Runtime.TimelinePlayer.ClearTimeline
+  - PragmaFramework.Timeline.Runtime.TimelinePlayer.controlBindInfos
+  - PragmaFramework.Timeline.Runtime.TimelinePlayer.Director
+  - PragmaFramework.Timeline.Runtime.TimelinePlayer.Init(IReadOnlyDictionary{System.String,System.Object})
+  - PragmaFramework.Timeline.Runtime.TimelinePlayer.OnAfterDeserialize
+  - PragmaFramework.Timeline.Runtime.TimelinePlayer.OnBeforeSerialize
+  - PragmaFramework.Timeline.Runtime.TimelinePlayer.PlayTimeline(System.Boolean)
+  - PragmaFramework.Timeline.Runtime.TimelinePlayer.Stopped
+  - PragmaFramework.Timeline.Runtime.TimelinePlayer.subTimelines
+  - PragmaFramework.Timeline.Runtime.TimelinePlayer.trackBindInfos
+  langs:
+  - csharp
+  - vb
+  name: TimelinePlayer
+  nameWithType: TimelinePlayer
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  type: Class
+  source:
+    id: TimelinePlayer
+    path: ''
+    startLine: 85
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  syntax:
+    content: 'public class TimelinePlayer : MonoBehaviour, ISerializationCallbackReceiver'
+    content.vb: >-
+      Public Class TimelinePlayer
+          Inherits MonoBehaviour
+          Implements ISerializationCallbackReceiver
+  inheritance:
+  - System.Object
+  implements:
+  - ISerializationCallbackReceiver
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.controlBindInfos
+  commentId: F:PragmaFramework.Timeline.Runtime.TimelinePlayer.controlBindInfos
+  id: controlBindInfos
+  parent: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  langs:
+  - csharp
+  - vb
+  name: controlBindInfos
+  nameWithType: TimelinePlayer.controlBindInfos
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.controlBindInfos
+  type: Field
+  source:
+    id: controlBindInfos
+    path: ''
+    startLine: 90
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  summary: "\nBind info for control Track.\n"
+  example: []
+  syntax:
+    content: public List<ControlBindInfo> controlBindInfos
+    return:
+      type: List{PragmaFramework.Timeline.Runtime.ControlBindInfo}
+    content.vb: Public controlBindInfos As List(Of ControlBindInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.trackBindInfos
+  commentId: F:PragmaFramework.Timeline.Runtime.TimelinePlayer.trackBindInfos
+  id: trackBindInfos
+  parent: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  langs:
+  - csharp
+  - vb
+  name: trackBindInfos
+  nameWithType: TimelinePlayer.trackBindInfos
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.trackBindInfos
+  type: Field
+  source:
+    id: trackBindInfos
+    path: ''
+    startLine: 95
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  summary: "\nBind info for track.\n"
+  example: []
+  syntax:
+    content: public List<TrackBindInfo> trackBindInfos
+    return:
+      type: List{PragmaFramework.Timeline.Runtime.TrackBindInfo}
+    content.vb: Public trackBindInfos As List(Of TrackBindInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.subTimelines
+  commentId: F:PragmaFramework.Timeline.Runtime.TimelinePlayer.subTimelines
+  id: subTimelines
+  parent: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  langs:
+  - csharp
+  - vb
+  name: subTimelines
+  nameWithType: TimelinePlayer.subTimelines
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.subTimelines
+  type: Field
+  source:
+    id: subTimelines
+    path: ''
+    startLine: 102
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  summary: "\nBind info for child timelines\n"
+  example: []
+  syntax:
+    content: public List<SubPlayerBindInfo> subTimelines
+    return:
+      type: List{PragmaFramework.Timeline.Runtime.SubPlayerBindInfo}
+    content.vb: Public subTimelines As List(Of SubPlayerBindInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.Stopped
+  commentId: E:PragmaFramework.Timeline.Runtime.TimelinePlayer.Stopped
+  id: Stopped
+  parent: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  langs:
+  - csharp
+  - vb
+  name: Stopped
+  nameWithType: TimelinePlayer.Stopped
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.Stopped
+  type: Event
+  source:
+    id: Stopped
+    path: ''
+    startLine: 109
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  syntax:
+    content: public event Action<PlayableDirector> Stopped
+    return:
+      type: Action{PlayableDirector}
+    content.vb: Public Event Stopped As Action(Of PlayableDirector)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.Director
+  commentId: P:PragmaFramework.Timeline.Runtime.TimelinePlayer.Director
+  id: Director
+  parent: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  langs:
+  - csharp
+  - vb
+  name: Director
+  nameWithType: TimelinePlayer.Director
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.Director
+  type: Property
+  source:
+    id: Director
+    path: ''
+    startLine: 121
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  summary: "\nThe <code>PlayableDirector</code> of this timeline player.\n"
+  example: []
+  syntax:
+    content: public PlayableDirector Director { get; }
+    parameters: []
+    return:
+      type: PlayableDirector
+    content.vb: Public ReadOnly Property Director As PlayableDirector
+  overload: PragmaFramework.Timeline.Runtime.TimelinePlayer.Director*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.Init(IReadOnlyDictionary{System.String,System.Object})
+  commentId: M:PragmaFramework.Timeline.Runtime.TimelinePlayer.Init(IReadOnlyDictionary{System.String,System.Object})
+  id: Init(IReadOnlyDictionary{System.String,System.Object})
+  parent: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  langs:
+  - csharp
+  - vb
+  name: Init(IReadOnlyDictionary<String, Object>)
+  nameWithType: TimelinePlayer.Init(IReadOnlyDictionary<String, Object>)
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.Init(IReadOnlyDictionary<System.String, System.Object>)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 135
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  summary: "\nInitialize this timeline player with a bindingMap; it only does the initialization and does not play it yet.\n"
+  example: []
+  syntax:
+    content: public void Init(IReadOnlyDictionary<string, object> bindingMap)
+    parameters:
+    - id: bindingMap
+      type: IReadOnlyDictionary{System.String,System.Object}
+      description: ''
+    content.vb: Public Sub Init(bindingMap As IReadOnlyDictionary(Of String, Object))
+  overload: PragmaFramework.Timeline.Runtime.TimelinePlayer.Init*
+  nameWithType.vb: TimelinePlayer.Init(IReadOnlyDictionary(Of String, Object))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: PragmaFramework.Timeline.Runtime.TimelinePlayer.Init(IReadOnlyDictionary(Of System.String, System.Object))
+  name.vb: Init(IReadOnlyDictionary(Of String, Object))
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.PlayTimeline(System.Boolean)
+  commentId: M:PragmaFramework.Timeline.Runtime.TimelinePlayer.PlayTimeline(System.Boolean)
+  id: PlayTimeline(System.Boolean)
+  parent: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  langs:
+  - csharp
+  - vb
+  name: PlayTimeline(Boolean)
+  nameWithType: TimelinePlayer.PlayTimeline(Boolean)
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.PlayTimeline(System.Boolean)
+  type: Method
+  source:
+    id: PlayTimeline
+    path: ''
+    startLine: 145
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  summary: "\nPlay this timeline.\n"
+  example: []
+  syntax:
+    content: public void PlayTimeline(bool autoDestroyOnStop = false)
+    parameters:
+    - id: autoDestroyOnStop
+      type: System.Boolean
+      description: Auto destroy when the timeline stop.
+    content.vb: Public Sub PlayTimeline(autoDestroyOnStop As Boolean = False)
+  overload: PragmaFramework.Timeline.Runtime.TimelinePlayer.PlayTimeline*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.ClearTimeline
+  commentId: M:PragmaFramework.Timeline.Runtime.TimelinePlayer.ClearTimeline
+  id: ClearTimeline
+  parent: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  langs:
+  - csharp
+  - vb
+  name: ClearTimeline()
+  nameWithType: TimelinePlayer.ClearTimeline()
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.ClearTimeline()
+  type: Method
+  source:
+    id: ClearTimeline
+    path: ''
+    startLine: 161
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  summary: "\nClear the timeline and remove all the runtime children.\n"
+  example: []
+  syntax:
+    content: public void ClearTimeline()
+    content.vb: Public Sub ClearTimeline
+  overload: PragmaFramework.Timeline.Runtime.TimelinePlayer.ClearTimeline*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.OnBeforeSerialize
+  commentId: M:PragmaFramework.Timeline.Runtime.TimelinePlayer.OnBeforeSerialize
+  id: OnBeforeSerialize
+  parent: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeSerialize()
+  nameWithType: TimelinePlayer.OnBeforeSerialize()
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.OnBeforeSerialize()
+  type: Method
+  source:
+    id: OnBeforeSerialize
+    path: ''
+    startLine: 304
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  syntax:
+    content: public void OnBeforeSerialize()
+    content.vb: Public Sub OnBeforeSerialize
+  overload: PragmaFramework.Timeline.Runtime.TimelinePlayer.OnBeforeSerialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.OnAfterDeserialize
+  commentId: M:PragmaFramework.Timeline.Runtime.TimelinePlayer.OnAfterDeserialize
+  id: OnAfterDeserialize
+  parent: PragmaFramework.Timeline.Runtime.TimelinePlayer
+  langs:
+  - csharp
+  - vb
+  name: OnAfterDeserialize()
+  nameWithType: TimelinePlayer.OnAfterDeserialize()
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.OnAfterDeserialize()
+  type: Method
+  source:
+    id: OnAfterDeserialize
+    path: ''
+    startLine: 308
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  syntax:
+    content: public void OnAfterDeserialize()
+    content.vb: Public Sub OnAfterDeserialize
+  overload: PragmaFramework.Timeline.Runtime.TimelinePlayer.OnAfterDeserialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: PragmaFramework.Timeline.Runtime
+  commentId: N:PragmaFramework.Timeline.Runtime
+  name: PragmaFramework.Timeline.Runtime
+  nameWithType: PragmaFramework.Timeline.Runtime
+  fullName: PragmaFramework.Timeline.Runtime
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ISerializationCallbackReceiver
+  commentId: '!:ISerializationCallbackReceiver'
+  isExternal: true
+  name: ISerializationCallbackReceiver
+  nameWithType: ISerializationCallbackReceiver
+  fullName: ISerializationCallbackReceiver
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: List{PragmaFramework.Timeline.Runtime.ControlBindInfo}
+  commentId: '!:List{PragmaFramework.Timeline.Runtime.ControlBindInfo}'
+  definition: List`1
+  name: List<ControlBindInfo>
+  nameWithType: List<ControlBindInfo>
+  fullName: List<PragmaFramework.Timeline.Runtime.ControlBindInfo>
+  nameWithType.vb: List(Of ControlBindInfo)
+  fullName.vb: List(Of PragmaFramework.Timeline.Runtime.ControlBindInfo)
+  name.vb: List(Of ControlBindInfo)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: PragmaFramework.Timeline.Runtime.ControlBindInfo
+    name: ControlBindInfo
+    nameWithType: ControlBindInfo
+    fullName: PragmaFramework.Timeline.Runtime.ControlBindInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: PragmaFramework.Timeline.Runtime.ControlBindInfo
+    name: ControlBindInfo
+    nameWithType: ControlBindInfo
+    fullName: PragmaFramework.Timeline.Runtime.ControlBindInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List{PragmaFramework.Timeline.Runtime.TrackBindInfo}
+  commentId: '!:List{PragmaFramework.Timeline.Runtime.TrackBindInfo}'
+  definition: List`1
+  name: List<TrackBindInfo>
+  nameWithType: List<TrackBindInfo>
+  fullName: List<PragmaFramework.Timeline.Runtime.TrackBindInfo>
+  nameWithType.vb: List(Of TrackBindInfo)
+  fullName.vb: List(Of PragmaFramework.Timeline.Runtime.TrackBindInfo)
+  name.vb: List(Of TrackBindInfo)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: PragmaFramework.Timeline.Runtime.TrackBindInfo
+    name: TrackBindInfo
+    nameWithType: TrackBindInfo
+    fullName: PragmaFramework.Timeline.Runtime.TrackBindInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: PragmaFramework.Timeline.Runtime.TrackBindInfo
+    name: TrackBindInfo
+    nameWithType: TrackBindInfo
+    fullName: PragmaFramework.Timeline.Runtime.TrackBindInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List{PragmaFramework.Timeline.Runtime.SubPlayerBindInfo}
+  commentId: '!:List{PragmaFramework.Timeline.Runtime.SubPlayerBindInfo}'
+  definition: List`1
+  name: List<SubPlayerBindInfo>
+  nameWithType: List<SubPlayerBindInfo>
+  fullName: List<PragmaFramework.Timeline.Runtime.SubPlayerBindInfo>
+  nameWithType.vb: List(Of SubPlayerBindInfo)
+  fullName.vb: List(Of PragmaFramework.Timeline.Runtime.SubPlayerBindInfo)
+  name.vb: List(Of SubPlayerBindInfo)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: PragmaFramework.Timeline.Runtime.SubPlayerBindInfo
+    name: SubPlayerBindInfo
+    nameWithType: SubPlayerBindInfo
+    fullName: PragmaFramework.Timeline.Runtime.SubPlayerBindInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: PragmaFramework.Timeline.Runtime.SubPlayerBindInfo
+    name: SubPlayerBindInfo
+    nameWithType: SubPlayerBindInfo
+    fullName: PragmaFramework.Timeline.Runtime.SubPlayerBindInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Action{PlayableDirector}
+  commentId: '!:Action{PlayableDirector}'
+  definition: Action`1
+  name: Action<PlayableDirector>
+  nameWithType: Action<PlayableDirector>
+  fullName: Action<PlayableDirector>
+  nameWithType.vb: Action(Of PlayableDirector)
+  fullName.vb: Action(Of PlayableDirector)
+  name.vb: Action(Of PlayableDirector)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: PlayableDirector
+    name: PlayableDirector
+    nameWithType: PlayableDirector
+    fullName: PlayableDirector
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: PlayableDirector
+    name: PlayableDirector
+    nameWithType: PlayableDirector
+    fullName: PlayableDirector
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Action`1
+  commentId: '!:Action`1'
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.Director*
+  commentId: Overload:PragmaFramework.Timeline.Runtime.TimelinePlayer.Director
+  name: Director
+  nameWithType: TimelinePlayer.Director
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.Director
+- uid: PlayableDirector
+  commentId: '!:PlayableDirector'
+  isExternal: true
+  name: PlayableDirector
+  nameWithType: PlayableDirector
+  fullName: PlayableDirector
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.Init*
+  commentId: Overload:PragmaFramework.Timeline.Runtime.TimelinePlayer.Init
+  name: Init
+  nameWithType: TimelinePlayer.Init
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.Init
+- uid: IReadOnlyDictionary{System.String,System.Object}
+  commentId: '!:IReadOnlyDictionary{System.String,System.Object}'
+  definition: IReadOnlyDictionary`2
+  name: IReadOnlyDictionary<String, Object>
+  nameWithType: IReadOnlyDictionary<String, Object>
+  fullName: IReadOnlyDictionary<System.String, System.Object>
+  nameWithType.vb: IReadOnlyDictionary(Of String, Object)
+  fullName.vb: IReadOnlyDictionary(Of System.String, System.Object)
+  name.vb: IReadOnlyDictionary(Of String, Object)
+  spec.csharp:
+  - uid: IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    nameWithType: IReadOnlyDictionary
+    fullName: IReadOnlyDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    nameWithType: IReadOnlyDictionary
+    fullName: IReadOnlyDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IReadOnlyDictionary`2
+  commentId: '!:IReadOnlyDictionary`2'
+  isExternal: true
+  name: IReadOnlyDictionary<, >
+  nameWithType: IReadOnlyDictionary<, >
+  fullName: IReadOnlyDictionary<, >
+  nameWithType.vb: IReadOnlyDictionary(Of , )
+  fullName.vb: IReadOnlyDictionary(Of , )
+  name.vb: IReadOnlyDictionary(Of , )
+  spec.csharp:
+  - uid: IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    nameWithType: IReadOnlyDictionary
+    fullName: IReadOnlyDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    nameWithType: IReadOnlyDictionary
+    fullName: IReadOnlyDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.PlayTimeline*
+  commentId: Overload:PragmaFramework.Timeline.Runtime.TimelinePlayer.PlayTimeline
+  name: PlayTimeline
+  nameWithType: TimelinePlayer.PlayTimeline
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.PlayTimeline
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.ClearTimeline*
+  commentId: Overload:PragmaFramework.Timeline.Runtime.TimelinePlayer.ClearTimeline
+  name: ClearTimeline
+  nameWithType: TimelinePlayer.ClearTimeline
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.ClearTimeline
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.OnBeforeSerialize*
+  commentId: Overload:PragmaFramework.Timeline.Runtime.TimelinePlayer.OnBeforeSerialize
+  name: OnBeforeSerialize
+  nameWithType: TimelinePlayer.OnBeforeSerialize
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.OnBeforeSerialize
+- uid: PragmaFramework.Timeline.Runtime.TimelinePlayer.OnAfterDeserialize*
+  commentId: Overload:PragmaFramework.Timeline.Runtime.TimelinePlayer.OnAfterDeserialize
+  name: OnAfterDeserialize
+  nameWithType: TimelinePlayer.OnAfterDeserialize
+  fullName: PragmaFramework.Timeline.Runtime.TimelinePlayer.OnAfterDeserialize

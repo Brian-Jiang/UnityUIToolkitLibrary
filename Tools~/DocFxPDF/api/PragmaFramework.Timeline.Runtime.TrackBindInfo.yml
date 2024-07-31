@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: PragmaFramework.Timeline.Runtime.TrackBindInfo
+  commentId: T:PragmaFramework.Timeline.Runtime.TrackBindInfo
+  id: TrackBindInfo
+  parent: PragmaFramework.Timeline.Runtime
+  children:
+  - PragmaFramework.Timeline.Runtime.TrackBindInfo.key
+  - PragmaFramework.Timeline.Runtime.TrackBindInfo.trackAsset
+  langs:
+  - csharp
+  - vb
+  name: TrackBindInfo
+  nameWithType: TrackBindInfo
+  fullName: PragmaFramework.Timeline.Runtime.TrackBindInfo
+  type: Struct
+  source:
+    id: TrackBindInfo
+    path: ''
+    startLine: 59
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  syntax:
+    content: public struct TrackBindInfo
+    content.vb: Public Structure TrackBindInfo
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: PragmaFramework.Timeline.Runtime.TrackBindInfo.key
+  commentId: F:PragmaFramework.Timeline.Runtime.TrackBindInfo.key
+  id: key
+  parent: PragmaFramework.Timeline.Runtime.TrackBindInfo
+  langs:
+  - csharp
+  - vb
+  name: key
+  nameWithType: TrackBindInfo.key
+  fullName: PragmaFramework.Timeline.Runtime.TrackBindInfo.key
+  type: Field
+  source:
+    id: key
+    path: ''
+    startLine: 61
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  syntax:
+    content: public string key
+    return:
+      type: System.String
+    content.vb: Public key As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PragmaFramework.Timeline.Runtime.TrackBindInfo.trackAsset
+  commentId: F:PragmaFramework.Timeline.Runtime.TrackBindInfo.trackAsset
+  id: trackAsset
+  parent: PragmaFramework.Timeline.Runtime.TrackBindInfo
+  langs:
+  - csharp
+  - vb
+  name: trackAsset
+  nameWithType: TrackBindInfo.trackAsset
+  fullName: PragmaFramework.Timeline.Runtime.TrackBindInfo.trackAsset
+  type: Field
+  source:
+    id: trackAsset
+    path: ''
+    startLine: 62
+  assemblies:
+  - cs.temp.dll
+  namespace: PragmaFramework.Timeline.Runtime
+  syntax:
+    content: public TrackAsset trackAsset
+    return:
+      type: TrackAsset
+    content.vb: Public trackAsset As TrackAsset
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: PragmaFramework.Timeline.Runtime
+  commentId: N:PragmaFramework.Timeline.Runtime
+  name: PragmaFramework.Timeline.Runtime
+  nameWithType: PragmaFramework.Timeline.Runtime
+  fullName: PragmaFramework.Timeline.Runtime
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TrackAsset
+  isExternal: true
+  name: TrackAsset
+  nameWithType: TrackAsset
+  fullName: TrackAsset
