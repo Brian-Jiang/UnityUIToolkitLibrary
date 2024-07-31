@@ -1,0 +1,102 @@
+{
+  "index.html": {
+    "href": "index.html",
+    "title": "UIToolkitLibrary | Unity UIToolkit Library",
+    "keywords": "UIToolkitLibrary version 0.1.0 Summary This is a library that contains some useful UI components for Unity UIToolkit. Components in Runtime folder can be used in editor and runtime, while components in Editor folder can be used in editor only. The components are then grouped by the publisher, and then by the component name. To contribute to this library, please follow the same structure. Inside each component folder, there is a README.md file that contains the description of the component and how to use it."
+  },
+  "README.html": {
+    "href": "README.html",
+    "title": "UIToolkitLibrary | Unity UIToolkit Library",
+    "keywords": "UIToolkitLibrary version 0.1.0 Summary This is a library that contains some useful UI components for Unity UIToolkit. Components in Runtime folder can be used in editor and runtime, while components in Editor folder can be used in editor only. The components are then grouped by the publisher, and then by the component name. To contribute to this library, please follow the same structure. Inside each component folder, there is a README.md file that contains the description of the component and how to use it."
+  },
+  "Runtime/Unity/SlideToggle/Readme.html": {
+    "href": "Runtime/Unity/SlideToggle/Readme.html",
+    "title": "| Unity UIToolkit Library",
+    "keywords": "a"
+  },
+  "UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.AssetPathField.html": {
+    "href": "UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.AssetPathField.html",
+    "title": "Class AssetPathField | Unity UIToolkit Library",
+    "keywords": "Class AssetPathField Inheritance System.Object AssetPathField Namespace : UIToolkitLibrary.Editor.XiaoJiang.AssetPathField Assembly : cs.temp.dll.dll Syntax public class AssetPathField : BaseField<string> Constructors AssetPathField() Declaration public AssetPathField() AssetPathField(String) Declaration public AssetPathField(string label) Parameters Type Name Description System.String label Properties ObjectType Declaration public Type ObjectType { get; set; } Property Value Type Description System.Type"
+  },
+  "UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.AssetPathField.UxmlFactory.html": {
+    "href": "UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.AssetPathField.UxmlFactory.html",
+    "title": "Class AssetPathField.UxmlFactory | Unity UIToolkit Library",
+    "keywords": "Class AssetPathField.UxmlFactory Inheritance System.Object AssetPathField.UxmlFactory Namespace : UIToolkitLibrary.Editor.XiaoJiang.AssetPathField Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : AssetPathField.UxmlFactory<AssetPathField, AssetPathField.UxmlTraits>"
+  },
+  "UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.AssetPathField.UxmlTraits.html": {
+    "href": "UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.AssetPathField.UxmlTraits.html",
+    "title": "Class AssetPathField.UxmlTraits | Unity UIToolkit Library",
+    "keywords": "Class AssetPathField.UxmlTraits Inheritance System.Object AssetPathField.UxmlTraits Namespace : UIToolkitLibrary.Editor.XiaoJiang.AssetPathField Assembly : cs.temp.dll.dll Syntax public class UxmlTraits : BaseField<string>.UxmlTraits Constructors UxmlTraits() Declaration public UxmlTraits() Methods Init(VisualElement, IUxmlAttributes, CreationContext) Declaration public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc) Parameters Type Name Description VisualElement ve IUxmlAttributes bag CreationContext cc"
+  },
+  "UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.html": {
+    "href": "UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.html",
+    "title": "Namespace UIToolkitLibrary.Editor.XiaoJiang.AssetPathField | Unity UIToolkit Library",
+    "keywords": "Namespace UIToolkitLibrary.Editor.XiaoJiang.AssetPathField Classes AssetPathField AssetPathField.UxmlFactory AssetPathField.UxmlTraits"
+  },
+  "UIToolkitLibrary.Runtime.Unity.PieChart.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.PieChart.html",
+    "title": "Namespace UIToolkitLibrary.Runtime.Unity.PieChart | Unity UIToolkit Library",
+    "keywords": "Namespace UIToolkitLibrary.Runtime.Unity.PieChart Classes PieChart PieChart.UxmlFactory PieChart.UxmlTraits"
+  },
+  "UIToolkitLibrary.Runtime.Unity.PieChart.PieChart.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.PieChart.PieChart.html",
+    "title": "Class PieChart | Unity UIToolkit Library",
+    "keywords": "Class PieChart Inheritance System.Object PieChart Namespace : UIToolkitLibrary.Runtime.Unity.PieChart Assembly : cs.temp.dll.dll Syntax public class PieChart : BindableElement Constructors PieChart() Declaration public PieChart() Properties diameter Declaration public float diameter { get; } Property Value Type Description System.Single radius Declaration public float radius { get; set; } Property Value Type Description System.Single value Declaration public float value { get; set; } Property Value Type Description System.Single"
+  },
+  "UIToolkitLibrary.Runtime.Unity.PieChart.PieChart.UxmlFactory.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.PieChart.PieChart.UxmlFactory.html",
+    "title": "Class PieChart.UxmlFactory | Unity UIToolkit Library",
+    "keywords": "Class PieChart.UxmlFactory Inheritance System.Object PieChart.UxmlFactory Namespace : UIToolkitLibrary.Runtime.Unity.PieChart Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : PieChart.UxmlFactory<PieChart, PieChart.UxmlTraits>"
+  },
+  "UIToolkitLibrary.Runtime.Unity.PieChart.PieChart.UxmlTraits.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.PieChart.PieChart.UxmlTraits.html",
+    "title": "Class PieChart.UxmlTraits | Unity UIToolkit Library",
+    "keywords": "Class PieChart.UxmlTraits Inheritance System.Object PieChart.UxmlTraits Namespace : UIToolkitLibrary.Runtime.Unity.PieChart Assembly : cs.temp.dll.dll Syntax public class UxmlTraits : BindableElement.UxmlTraits Methods Init(VisualElement, IUxmlAttributes, CreationContext) Declaration public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc) Parameters Type Name Description VisualElement ve IUxmlAttributes bag CreationContext cc"
+  },
+  "UIToolkitLibrary.Runtime.Unity.RadialProgress.EllipseMesh.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.RadialProgress.EllipseMesh.html",
+    "title": "Class EllipseMesh | Unity UIToolkit Library",
+    "keywords": "Class EllipseMesh Inheritance System.Object EllipseMesh Namespace : UIToolkitLibrary.Runtime.Unity.RadialProgress Assembly : cs.temp.dll.dll Syntax public class EllipseMesh Constructors EllipseMesh(Int32) Declaration public EllipseMesh(int numSteps) Parameters Type Name Description System.Int32 numSteps Properties borderSize Declaration public float borderSize { get; set; } Property Value Type Description System.Single color Declaration public Color color { get; set; } Property Value Type Description Color height Declaration public float height { get; set; } Property Value Type Description System.Single indices Declaration public ushort[] indices { get; } Property Value Type Description System.UInt16 [] isDirty Declaration public bool isDirty { get; } Property Value Type Description System.Boolean numSteps Declaration public int numSteps { get; set; } Property Value Type Description System.Int32 vertices Declaration public Vertex[] vertices { get; } Property Value Type Description Vertex [] width Declaration public float width { get; set; } Property Value Type Description System.Single Methods UpdateMesh() Declaration public void UpdateMesh()"
+  },
+  "UIToolkitLibrary.Runtime.Unity.RadialProgress.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.RadialProgress.html",
+    "title": "Namespace UIToolkitLibrary.Runtime.Unity.RadialProgress | Unity UIToolkit Library",
+    "keywords": "Namespace UIToolkitLibrary.Runtime.Unity.RadialProgress Classes EllipseMesh RadialProgress RadialProgress.UxmlFactory RadialProgress.UxmlTraits"
+  },
+  "UIToolkitLibrary.Runtime.Unity.RadialProgress.RadialProgress.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.RadialProgress.RadialProgress.html",
+    "title": "Class RadialProgress | Unity UIToolkit Library",
+    "keywords": "Class RadialProgress Inheritance System.Object RadialProgress Namespace : UIToolkitLibrary.Runtime.Unity.RadialProgress Assembly : cs.temp.dll.dll Syntax public class RadialProgress : VisualElement Constructors RadialProgress() Declaration public RadialProgress() Fields ussClassName Declaration public static readonly string ussClassName Field Value Type Description System.String ussLabelClassName Declaration public static readonly string ussLabelClassName Field Value Type Description System.String Properties progress Declaration public float progress { get; set; } Property Value Type Description System.Single"
+  },
+  "UIToolkitLibrary.Runtime.Unity.RadialProgress.RadialProgress.UxmlFactory.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.RadialProgress.RadialProgress.UxmlFactory.html",
+    "title": "Class RadialProgress.UxmlFactory | Unity UIToolkit Library",
+    "keywords": "Class RadialProgress.UxmlFactory Inheritance System.Object RadialProgress.UxmlFactory Namespace : UIToolkitLibrary.Runtime.Unity.RadialProgress Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : RadialProgress.UxmlFactory<RadialProgress, RadialProgress.UxmlTraits>"
+  },
+  "UIToolkitLibrary.Runtime.Unity.RadialProgress.RadialProgress.UxmlTraits.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.RadialProgress.RadialProgress.UxmlTraits.html",
+    "title": "Class RadialProgress.UxmlTraits | Unity UIToolkit Library",
+    "keywords": "Class RadialProgress.UxmlTraits Inheritance System.Object RadialProgress.UxmlTraits Namespace : UIToolkitLibrary.Runtime.Unity.RadialProgress Assembly : cs.temp.dll.dll Syntax public class UxmlTraits : VisualElement.UxmlTraits Methods Init(VisualElement, IUxmlAttributes, CreationContext) Declaration public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc) Parameters Type Name Description VisualElement ve IUxmlAttributes bag CreationContext cc"
+  },
+  "UIToolkitLibrary.Runtime.Unity.SlideToggle.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.SlideToggle.html",
+    "title": "Namespace UIToolkitLibrary.Runtime.Unity.SlideToggle | Unity UIToolkit Library",
+    "keywords": "Namespace UIToolkitLibrary.Runtime.Unity.SlideToggle Classes SlideToggle SlideToggle.UxmlFactory SlideToggle.UxmlTraits"
+  },
+  "UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle.html",
+    "title": "Class SlideToggle | Unity UIToolkit Library",
+    "keywords": "Class SlideToggle Inheritance System.Object SlideToggle Namespace : UIToolkitLibrary.Runtime.Unity.SlideToggle Assembly : cs.temp.dll.dll Syntax public class SlideToggle : BaseField<bool> Constructors SlideToggle() Declaration public SlideToggle() SlideToggle(String) Declaration public SlideToggle(string label) Parameters Type Name Description System.String label Fields inputCheckedUssClassName Declaration public static readonly string inputCheckedUssClassName Field Value Type Description System.String inputKnobUssClassName Declaration public static readonly string inputKnobUssClassName Field Value Type Description System.String inputUssClassName Declaration public static readonly string inputUssClassName Field Value Type Description System.String ussClassName Declaration public static readonly string ussClassName Field Value Type Description System.String Methods SetValueWithoutNotify(Boolean) Declaration public override void SetValueWithoutNotify(bool newValue) Parameters Type Name Description System.Boolean newValue"
+  },
+  "UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle.UxmlFactory.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle.UxmlFactory.html",
+    "title": "Class SlideToggle.UxmlFactory | Unity UIToolkit Library",
+    "keywords": "Class SlideToggle.UxmlFactory Inheritance System.Object SlideToggle.UxmlFactory Namespace : UIToolkitLibrary.Runtime.Unity.SlideToggle Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : SlideToggle.UxmlFactory<SlideToggle, SlideToggle.UxmlTraits>"
+  },
+  "UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle.UxmlTraits.html": {
+    "href": "UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle.UxmlTraits.html",
+    "title": "Class SlideToggle.UxmlTraits | Unity UIToolkit Library",
+    "keywords": "Class SlideToggle.UxmlTraits Inheritance System.Object SlideToggle.UxmlTraits Namespace : UIToolkitLibrary.Runtime.Unity.SlideToggle Assembly : cs.temp.dll.dll Syntax public class UxmlTraits : BaseFieldTraits<bool, UxmlBoolAttributeDescription>"
+  }
+}

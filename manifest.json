@@ -1,0 +1,317 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/UnityUIToolkitLibrary/UnityUIToolkitLibrary/Tools~/DocFx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../../README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "2bM/LQ7bFhEcNjo0XJeuU6LQavxAO9sfOdFO0Q0/jNI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../../Runtime/Unity/SlideToggle/Readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "Runtime/Unity/SlideToggle/Readme.html",
+          "hash": "zz+gtwrkeUOpTH5nz69hbP+tbVl1gE1pURMieRh00Lw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.AssetPathField.UxmlFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.AssetPathField.UxmlFactory.html",
+          "hash": "BOTLQVPq/DMHWQmQufyEAEdQlQzBEksSNhWTikygDvc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.AssetPathField.UxmlTraits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.AssetPathField.UxmlTraits.html",
+          "hash": "FaI60CdpVt1je3GtfYRpW7k+G1dGHpbNXhXFm38DLyM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.AssetPathField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.AssetPathField.html",
+          "hash": "fH/oB2qNqtQZyQICWINq9ysLVgl3iBb7f+D6TLQ+rV8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Editor.XiaoJiang.AssetPathField.html",
+          "hash": "eIR6+5TkBHe1vhqXZhpPwPdcPpw+csvWuc30YeB1qZA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.PieChart.PieChart.UxmlFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.PieChart.PieChart.UxmlFactory.html",
+          "hash": "8Vs1yhRWBHCE5+GYw1uLdZBXs5R5is9ot+C62oHy+2A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.PieChart.PieChart.UxmlTraits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.PieChart.PieChart.UxmlTraits.html",
+          "hash": "rH3i0FOTyuDeBYbvfO9E8W3qDQf7Yjkq73ap+z9PV78="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.PieChart.PieChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.PieChart.PieChart.html",
+          "hash": "EzdOcBUT7ZpzXcPDI/HfTcGUiVjAe2XpDahQ5Kt0xek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.PieChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.PieChart.html",
+          "hash": "IyezQU0XWYT7+a6rKUD2Kbnop8YTWycsoI+safoRjrA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.RadialProgress.EllipseMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.RadialProgress.EllipseMesh.html",
+          "hash": "4sPrA/elMNMyHH+GZEubZxHxa0tYENPtueHmgIV97j4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.RadialProgress.RadialProgress.UxmlFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.RadialProgress.RadialProgress.UxmlFactory.html",
+          "hash": "NbGLar6Ys/tHQ0GLPTFkSlUE/tURlqtvcazxzSgslcI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.RadialProgress.RadialProgress.UxmlTraits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.RadialProgress.RadialProgress.UxmlTraits.html",
+          "hash": "UOqb6qTBc6mKDJPLDE/zpI4H4XdcSGAfLpwKQiVmVvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.RadialProgress.RadialProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.RadialProgress.RadialProgress.html",
+          "hash": "rv8Z4x1dota/RJ1CxeABcUCvHfyF4PDbHF65i4QnN/4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.RadialProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.RadialProgress.html",
+          "hash": "ZhlfKB1piAuAXcFsXPSW0r1wdRYNCx6QjYC9s/qXB8s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle.UxmlFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle.UxmlFactory.html",
+          "hash": "QPT29HHjIN1MSr/6SUllq3oeGIvNzZv2cvtWRyZ+tH0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle.UxmlTraits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle.UxmlTraits.html",
+          "hash": "jIWZp+m/nOTdQkem0/pLShBCOyob7Wfvv6Xc8OYQ0QI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.SlideToggle.SlideToggle.html",
+          "hash": "EF5XyajhiM5kdjviupa9bE0TqcYr7WnPJi6JZ3AiQQA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UIToolkitLibrary.Runtime.Unity.SlideToggle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "UIToolkitLibrary.Runtime.Unity.SlideToggle.html",
+          "hash": "T9Q8ykzeRzrayeT44JRDJDwp3svnFa+8FTQ89nSjzQY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "2/NbmsNjZ5AKmWZ8iIofE5S5ICPiNgpbbUjbx8SKVaI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "shhzgG4ApQv4J/sadyqU1CavWTRx4BbEFk/g45XbGE0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 17,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
